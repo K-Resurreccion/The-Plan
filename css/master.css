@@ -68,7 +68,8 @@ p {
   font-family: 'Special Elite', cursive;
   width: 90%;
   margin: 0 auto;
-  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 
 }
 
@@ -76,11 +77,11 @@ ul {
   width: 75%;
   margin: 10px auto;
   font-family: 'Special Elite', cursive;
-  line-height: 1.2rem;
+  line-height: 1.6rem;
 }
 
 ul li {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 @media only screen and (min-width: 768px) {
