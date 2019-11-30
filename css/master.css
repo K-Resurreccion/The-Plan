@@ -35,22 +35,12 @@ h2 {
 h3 {
   font-family: 'Special Elite', cursive;
   margin-bottom: 10px;
-}
-
-@media only screen and (min-width: 768px) {
-  h3 {
-    font-size: 1.2rem;
-  }
+  font-size: 1.4rem;
 }
 
 h4 {
   font-family: 'Special Elite', cursive;
-}
-
-@media only screen and (min-width: 768px) {
-    h4 {
-      font-size: 1.2rem;
-    }
+  font-size: 1.4rem;
 }
 
 a {
