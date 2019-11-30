@@ -1,0 +1,155 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* Fonts */
+/* font-family: 'Nosifer', cursive; for h1
+    font-family: 'Special Elite', cursive; for body text*/
+
+/* General */
+body {
+  background-color: hsla(360, 100%, 40%, 1);
+}
+
+h1 {
+  Color: hsla(360, 100%, 45%, 1);
+  font-size: 4rem;
+  font-family: 'Nosifer', cursive;
+  line-height: 4.5rem;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  border-bottom: solid 2px black;
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: 'Special Elite', cursive;
+}
+
+a {
+  font-family: 'Special Elite', cursive;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  display: inline;
+}
+
+p {
+  font-family: 'Special Elite', cursive;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.2rem;
+}
+
+ul {
+  width: 75%;
+  margin: 10px auto;
+  font-family: 'Special Elite', cursive;
+  line-height: 1.2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Special Elite', cursive;
+  color: white;
+}
+
+/* use span class="roach" for every instance of the word roach */
+.roach {
+  font-family: "Nosifer", cursive;
+}
+
+/* Header Rules */
+header {
+  background-color: black;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h1 {
+  margin-bottom: 15px;
+  border-bottom: 4px solid hsla(46, 100%, 59%, 1);
+  /* text-decoration: underline; */
+  text-align: center;
+}
+
+.crosshair {
+  width: 25%;
+  margin: 10px auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  color: white;
+  list-style: none;
+}
+
+/* Plan Rules */
+article {
+  width: 95%;
+  margin: 25px auto;
+}
+
+#plan h2 {
+
+}
+
+/* Step Rules */
+.step {
+  margin: 20px auto;
+  width: 85%;
+}
+
+.step h4 {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/* Tips Rules */
+.tip {
+  width: 75%;
+  background-color: black;
+  color: white;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: .8rem;
+  line-height: 1rem;
+}
+
+/* Footer Rules */
+footer {
+  text-align: center;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
