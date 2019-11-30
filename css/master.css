@@ -34,7 +34,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   h3 {
     font-size: 1.2rem;
   }
@@ -44,7 +44,7 @@ h4 {
   font-family: 'Special Elite', cursive;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     h4 {
       font-size: 1.2rem;
     }
@@ -80,7 +80,7 @@ ul li {
   font-size: 1.2rem;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   ul li {
     line-height: 1.4rem;
   }
@@ -109,7 +109,7 @@ header h1 {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   header h1 {
     margin: 25px;
   }
@@ -121,7 +121,7 @@ header h1 {
   margin: 10px auto;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .crosshair {
     margin: 20px auto;
   }
@@ -150,7 +150,7 @@ article {
   margin: 25px auto;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   article {
     width: 70%;
   }
