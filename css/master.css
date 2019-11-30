@@ -153,7 +153,6 @@ article {
 @media only screen and (min-width: 768px) {
   article {
     width: 70%;
-    background-color: blue;
   }
 }
 
