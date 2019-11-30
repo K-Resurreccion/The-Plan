@@ -68,7 +68,7 @@ p {
   font-family: 'Special Elite', cursive;
   width: 90%;
   margin: 0 auto;
-  line-height: 1.2rem;
+  line-height: 1.4rem;
 
 }
 
@@ -150,7 +150,8 @@ nav ul {
 /* Plan Rules */
 article {
   width: 95%;
-  margin: 25px auto;
+  margin: 2.5% auto;
+  margin-top: 25px;
 }
 
 @media only screen and (min-width: 768px) {
